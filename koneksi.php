@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "crud_mahasiswa";
+$db   = "database";
 
 // Koneksi
 $conn = mysqli_connect($host, $user, $pass, $db);
