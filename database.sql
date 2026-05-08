@@ -3,5 +3,6 @@ CREATE TABLE mahasiswa (
     nim VARCHAR(10) NOT NULL,
     nama VARCHAR(100) NOT NULL,
     jurusan VARCHAR(50) NOT NULL,
-    alamat TEXT
+    alamat TEXT,
+    foto VARCHAR
 );

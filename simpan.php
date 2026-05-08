@@ -40,7 +40,7 @@ if ($id == "") {
 
     mysqli_query($conn,
         "INSERT INTO mahasiswa
-        (nim, nama_lengkap, jurusan, foto)
+        (nim, nama, jurusan, foto)
         VALUES
         ('$nim', '$nama', '$jurusan', '$foto')"
     );
@@ -57,7 +57,7 @@ if ($id == "") {
     mysqli_query($conn,
         "UPDATE mahasiswa SET
         nim='$nim',
-        nama_lengkap='$nama',
+        nama='$nama',
         jurusan='$jurusan',
         foto='$foto'
         WHERE id='$id'"

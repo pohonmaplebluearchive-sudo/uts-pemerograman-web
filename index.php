@@ -15,7 +15,7 @@ $data = mysqli_query($conn, "SELECT * FROM mahasiswa");
 
 <h2>Data Mahasiswa</h2>
 
-<a href="form.php" class="btn">+ Tambah Data</a>
+<a href="from.php" class="btn">+ Tambah Data</a>
 
 <table>
     <tr>
